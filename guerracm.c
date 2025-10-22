@@ -61,4 +61,41 @@ int main() {
     return 0;
 }
 
+// FIM DO CÓDIGO NÍVEL NOVATO
+//eXemplo de execução:
+/*=== Cadastro de Territórios ===
 
+Território 1
+Nome: Brasil
+Cor do Exército: Verde
+Número de Tropas: 8
+
+Território 2
+Nome: Argentina
+Cor do Exército: Azul
+Número de Tropas: 5
+
+Território 3
+Nome: Chile
+Cor do Exército: Vermelho
+Número de Tropas: 6
+
+Território 4
+Nome: Peru
+Cor do Exército: Amarelo
+Número de Tropas: 7
+
+Território 5
+Nome: Uruguai
+Cor do Exército: Verde
+Número de Tropas: 4
+
+=== Estado Atual do Mapa ===
+Território           | Cor do Exército | Tropas
+--------------------------------------------------
+Brasil               | Verde           | 8
+Argentina            | Azul            | 5
+Chile                | Vermelho        | 6
+Peru                 | Amarelo         | 7
+Uruguai              | Verde           | 4
+       */
