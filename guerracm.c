@@ -1,7 +1,5 @@
-//Codigo completo nível novato:
 //territorio2.c
 // Programa para gerenciar informações de territórios usando struct em C
-// Biblioteca 
 #include <stdio.h>
 #include <string.h>
 
@@ -13,8 +11,13 @@ typedef struct {
     int tropas;        // Quantidade de tropas no território
 } Territorio;
 
+//-- Função para limpar o buffer de entrada  ( Uma Prevenção contra o buffer overflow) ----------------------------------------------
+void limparBufferEntrada() {
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF);
+}
 int main() {
-    // Declaração: Vetor de 5 territórios
+    // Declaração de um vetor de 5 territórios
     Territorio territorios[5];
     
     // Entrada de dados
@@ -33,6 +36,7 @@ int main() {
         
         printf("Digite a quantidade de tropas: ");
         scanf("%d", &territorios[i].tropas);
+        limparBufferEntrada(); // Limpa o buffer para evitar problemas nas próximas leituras
         getchar(); // consome o '\n' deixado pelo scanf
         
         printf("\n");
@@ -48,7 +52,8 @@ int main() {
         printf("--------------------------\n");
     }
 
-    return 0;
+    return 0; // Fim do programa
+
 }
 
 
