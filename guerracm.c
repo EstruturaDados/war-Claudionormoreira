@@ -1,4 +1,4 @@
-//territorio2.c
+//PROGETO DE CADASTRO DE  TERRITÓRIO
 // Programa para gerenciar informações de territórios usando struct em C
 #include <stdio.h>
 #include <string.h>
@@ -21,6 +21,11 @@ int main() {
     Territorio territorios[5];
     
     // Entrada de dados
+    printf("=====================================\n");
+    printf("=====================================\n");
+    printf("     JOGO DE GUERRA - PARTE1      \n");
+    printf("=====================================\n");
+    printf("=====================================\n\n");
     printf("=== Cadastro de Territórios ===\n\n");
     
     for (int i = 0; i < 5; i++) {
