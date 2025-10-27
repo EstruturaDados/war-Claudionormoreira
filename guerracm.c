@@ -58,7 +58,7 @@ int main() {
 
 
 // FIM DO CÓDIGO NÍVEL NOVATO
-//eXemplo de execução:
+//Exemplo de execução:
 /*=== Cadastro de Territórios ===
 
 Território 1
